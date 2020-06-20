@@ -1,0 +1,43 @@
+.projects {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.projects .project-tile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projects .project-tile h2 {
+    font-size: 50pt;
+    border-bottom: solid 6px #58cdd1;
+    font-family: 'Squada One', cursive;
+}
+
+.projects .project-tile .icono-idea{
+    width: 60px;
+    height: 60px;
+}
+
+.projects #corousel {
+    width: 60%;
+    box-shadow: black 10px 10px 30px;
+}
+
+@media screen and (max-width: 720px){
+    .projects .project-tile h2 {
+        font-size: 30pt;
+        border-bottom: solid 6px #58cdd1;
+        font-family: 'Squada One', cursive;
+    }
+
+    .projects #corousel {
+        width: 95%;
+        box-shadow: black 10px 10px 30px;
+    }
+}

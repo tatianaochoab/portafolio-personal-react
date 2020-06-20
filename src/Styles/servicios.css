@@ -1,0 +1,114 @@
+.servicios {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    /* padding-top: 75px; */
+}
+
+.servicios .project-tile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.servicios .project-tile h2 {
+    font-size: 50pt;
+    border-bottom: solid 6px #58cdd1;
+    font-family: 'Squada One', cursive;
+}
+
+.servicios .project-tile .icono-idea {
+    width: 60px;
+    height: 60px;
+}
+
+.servicios .informacion {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.servicios .informacion .caracteristica {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 50%;
+}
+
+.servicios .informacion .caracteristica p {
+    padding: 20px;
+    align-self: center;
+    font-size: 15pt;
+    font-weight: 600;
+    font-family: 'Handlee', cursive;
+    text-align: justify;
+}
+
+.servicios .informacion .caracteristica .interfaz {
+    width: 350px;
+}
+
+.servicios .informacion .div-imagen {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    width: 50%;
+}
+
+.servicios .informacion .div-imagen .habilidades {
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width: 720px){
+    .servicios {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+
+    .servicios .project-tile h2 {
+        font-size: 30pt;
+    }
+
+    .servicios .project-tile .icono-idea {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .servicios .informacion {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .servicios .informacion .caracteristica {
+        width: 100%;
+    }
+    
+    .servicios .informacion .caracteristica p {
+        font-size: 12pt;
+    }
+    
+    .servicios .informacion .caracteristica .interfaz {
+        width: 40%;
+
+    }
+    
+    .servicios .informacion .div-imagen {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .servicios .informacion .div-imagen .habilidades {
+        width: 60px;
+        height: 60px;
+    }
+
+}

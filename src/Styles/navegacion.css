@@ -1,0 +1,103 @@
+.navegacion{
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+/* .navegacion .cont-items{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.navegacion .logo{
+    color: #ffe593;
+    font-family: 'Ruthie', cursive;
+    font-size: 50px;
+    font-weight: 200;
+    padding-left: 5px;
+    margin: 0;
+}
+
+
+/*------animaciones items barra de navegación-------*/
+
+.draw-border {
+    box-shadow: inset 0 0 0 2px #58cdd1;
+    color: #58afd1;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+
+.draw-border::before, .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.draw-border::before {
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+.draw-border::after {
+    border-top-width: 2px;
+    border-right-width: 2px;
+}
+
+.draw-border:hover {
+    color: #ffe593;
+}
+
+.draw-border:hover::before, .draw-border:hover::after {
+    border-color: #cc4b51;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.draw-border:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+.btn {
+    width: 100px;
+    margin: 0px 5px;
+    border: none;
+    font: 600 12pt 'Handlee';
+    padding: 10px;
+    height: 40px
+}
+
+​.btn:focus {
+    outline: 2px dotted #55d7dc;
+}
+/*------fin animaciones items barra de navegación-------*/
+
+@media screen and (max-width: 720px){
+    .navegacion .cont-items{
+        display: block;
+    }
+
+    .draw-border {
+        box-shadow: none;
+    }
+    
+    .btn {
+        margin: 5px;
+    }
+}
