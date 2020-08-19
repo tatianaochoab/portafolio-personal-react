@@ -1,4 +1,7 @@
 .servicios {
+    border: solid 1px #000;
+    width: 90%;
+    margin: auto;
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -8,6 +11,7 @@
 }
 
 .servicios .project-tile {
+    /* border: solid 1px #000; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -49,10 +53,11 @@
 }
 
 .servicios .informacion .caracteristica .interfaz {
-    width: 350px;
+    width: 250px;
 }
 
 .servicios .informacion .div-imagen {
+    border: solid 1px #000;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -61,8 +66,8 @@
 }
 
 .servicios .informacion .div-imagen .habilidades {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 @media screen and (max-width: 720px){

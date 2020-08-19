@@ -1,29 +1,26 @@
 import React from 'react';
-import '../Styles/sobre-mi.css'
-import user from '../images/mujer.png'
+import '../Styles/sobre-mi.css';
+import love from '../images/love.png';
 
 const SobreMi = () => {
-    return(
+    return (
         <section className="about">
-                <article className="project-tile">
-                    <h2>¿Quien soy?</h2>
-                    <img className='icono-idea' src={user} alt='icono'/>
-                </article>
-                <article className="informacion">
-                    <div className='caracteristica'>
-                        <p>
-                            Soy una persona apasionada por los restos, mi familia es la mayor motivación para salir adelante; me encanta la lectura, la naturaleza, estar en constante aprendizaje y poder compartir mi conocimiento con los demás. 
-                        </p>
-                        {/* <img className='interfaz' src={interfaz} alt='icono'/> */}
-                    </div>
-                    <div className="div-imagen">
-                        {/* <img className='habilidades' src={responsive} alt='icono'/>
-                        <img className='habilidades' src={html} alt='icono'/>
-                        <img className='habilidades' src={css} alt='icono'/>
-                        <img className='habilidades' src={js} alt='icono'/> */}
-                    </div>
-                </article>
-            </section>
+            <article className="project-tile">
+                <h2>¿Quién soy?</h2>
+                <img className='icono-idea' src={love} alt='icono' />
+            </article>
+            <article className="informacion">
+                <div className='caracteristica'>
+                    <p>
+                        Soy una persona que le gustan los retos, mi familia es la mayor motivación para salir adelante; me encanta la lectura, la naturaleza, estar en constante aprendizaje y poder compartir mis conocimiento con los demás.
+                    </p>
+                    <p>
+                        Me apasionada la tecnología; busco aplicar mis conocimientos como desarrolladora Front-End para poder crear aplicaciones funcionales e interactivas, atendiendo las necesidades de los usuarios. Considero que mi fuerte es la maquetación donde puedo poner en práctica toda mi creatividad, claro está, obedeciendo los requerimientos propuestos para cada proyecto.
+                        Mi objetivo es poder avanzar y escalar en esta carrera, adquiriendo nuevos conocimientos y aprendiendo día a día de las nuevas tecnologías.
+                    </p>
+                </div>
+            </article>
+        </section>
     );
 }
 

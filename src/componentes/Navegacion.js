@@ -13,16 +13,16 @@ const Navegacion = () => {
             <div className='collapse navbar-collapse' id='navbarsExample02'>
                 <ul className='navbar-nav ml-auto'>
                     <li className='nav-item'>
-                        <Link className='btn draw-border' to='/'>Inicio</Link>
+                        <Link className='items draw-border' to='/'>Inicio</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link className='btn draw-border' to='/sobremi'>Sobre mi</Link>
+                        <Link className='items draw-border' to='/sobremi'>Sobre mi</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link className='btn draw-border' to='/proyectos'>Proyectos</Link>
+                        <Link className='items draw-border' to='/proyectos'>Proyectos</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link className='btn draw-border' to='/servicios'>Servicios</Link>
+                        <Link className='items draw-border' to='/contacto'>Contacto</Link>
                     </li>
                 </ul>
             </div>

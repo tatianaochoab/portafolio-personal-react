@@ -12,17 +12,17 @@
 
 .navegacion .logo{
     color: #ffe593;
-    font-family: 'Ruthie', cursive;
-    font-size: 50px;
+    font-family: 'Montez', cursive;
+    font-size: 30px;
     font-weight: 200;
     padding-left: 5px;
     margin: 0;
 }
 
-
 /*------animaciones items barra de navegación-------*/
 
 .draw-border {
+    padding: 5px 10px;
     box-shadow: inset 0 0 0 2px #58cdd1;
     color: #58afd1;
     -webkit-transition: color 0.25s 0.0833333333s;
@@ -54,6 +54,7 @@
 
 .draw-border:hover {
     color: #ffe593;
+    text-decoration: none;
 }
 
 .draw-border:hover::before, .draw-border:hover::after {
@@ -74,16 +75,16 @@
     transition-delay: 0s, 0.25s, 0s;
 }
 
-.btn {
-    width: 100px;
+.items {
+    text-decoration: none;
     margin: 0px 5px;
     border: none;
     font: 600 12pt 'Handlee';
-    padding: 10px;
+    padding: 5px 10px;
     height: 40px
 }
 
-​.btn:focus {
+​.items:focus {
     outline: 2px dotted #55d7dc;
 }
 /*------fin animaciones items barra de navegación-------*/
@@ -96,8 +97,9 @@
     .draw-border {
         box-shadow: none;
     }
-    
-    .btn {
+
+    li{
         margin: 5px;
     }
+
 }

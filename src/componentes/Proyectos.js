@@ -1,13 +1,11 @@
 import React from 'react';
 import '../Styles/proyectos.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
 import pomodoro from'../images/pomodoro.png';
 import calculadora from '../images/calculadora.png';
 import tecnical from '../images/tecnical.png';
 import drum from '../images/drum.png';
-import idea from '../images/idea.png'
-
+import idea from '../images/idea.png';
 
 const Proyectos = () => {
     return (

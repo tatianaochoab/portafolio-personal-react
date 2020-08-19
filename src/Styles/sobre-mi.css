@@ -1,4 +1,7 @@
 .about {
+    border: solid 1px #000;
+    width: 90%;
+    margin: auto;
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -34,16 +37,15 @@
 
 .about .informacion .caracteristica {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    width: 50%;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .about .informacion .caracteristica p {
     padding: 20px;
     align-self: center;
     font-size: 15pt;
-    font-weight: 600;
     font-family: 'Handlee', cursive;
     text-align: justify;
 }
@@ -65,50 +67,40 @@
     height: 150px;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
     .about {
         display: flex;
         flex-flow: row wrap;
         align-content: center;
         justify-content: space-evenly;
     }
-
     .about .project-tile h2 {
         font-size: 30pt;
     }
-
     .about .project-tile .icono-idea {
         width: 50px;
         height: 50px;
     }
-    
     .about .informacion {
         width: 100%;
         display: flex;
         flex-flow: column wrap;
     }
-
     .about .informacion .caracteristica {
         width: 100%;
     }
-    
     .about .informacion .caracteristica p {
         font-size: 12pt;
     }
-    
     .about .informacion .caracteristica .interfaz {
         width: 40%;
-
     }
-    
     .about .informacion .div-imagen {
         width: 100%;
         margin-top: 30px;
     }
-    
     .about .informacion .div-imagen .habilidades {
         width: 60px;
         height: 60px;
     }
-
 }

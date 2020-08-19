@@ -26,6 +26,16 @@ const Servicios = () =>{
                         <img className='habilidades' src={html} alt='icono'/>
                         <img className='habilidades' src={css} alt='icono'/>
                         <img className='habilidades' src={js} alt='icono'/>
+                        <ul>
+                        <h5>Habilidades profesionales</h5>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
+                            <li>React-Js</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>SASS</li>
+                            <li>Figma</li>
+                        </ul>
                     </div>
                 </article>
             </section>

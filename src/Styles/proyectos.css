@@ -1,4 +1,7 @@
 .projects {
+    border: solid 1px #000;
+    width: 90%;
+    margin: auto;
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -7,6 +10,7 @@
 }
 
 .projects .project-tile {
+    /* border: solid 1px #000; */
     display: flex;
     justify-content: flex-start;
     align-items: center;

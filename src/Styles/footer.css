@@ -1,0 +1,32 @@
+.footer{
+    background:#000000;
+    color: #ffe593;
+    font-family: 'Handlee', cursive;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 70px;
+}
+
+.footer .derechos {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 10pt;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+    .footer .derechos {
+        width: 100%;
+        color: #fff;
+        font-size: 10pt;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -2,16 +2,23 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Styles/contacto.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+import user from '../images/mujer.png';
 
 const Contacto = () => {
     return (
-        <footer className="contacto">
+        <section className="contacto">
             <article className="project-tile">
-                <h2>Contactame</h2>
+                <h2>Contáctame</h2>
+                <img className='icono-idea' src={user} alt='icono' />
             </article>
             <div className="work">
                 <p>¡Trabajemos juntos!</p>
+            </div>
+            <div className="phrase">
+                <p>"Aprende las reglas como un profesional, para
+                que puedas romperlas como un artista".
+                <br/>
+                -Pablo Picasso-</p>
             </div>
             <div className="iconos">
                 <ul className="social-icons">
@@ -22,10 +29,7 @@ const Contacto = () => {
                     <li><a className='link-iconos' href='https://www.instagram.com/tatianaochoab' target="_blank"><FontAwesomeIcon className='iconos' icon={['fab', 'instagram']} /></a></li>
                 </ul>
             </div>
-            <div className='derechos'>
-                <p>Copyrigth © Tatiana Ochoa Bautista 2020</p>
-            </div>
-        </footer>
+        </section>
     );
 }
 

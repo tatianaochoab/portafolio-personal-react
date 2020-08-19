@@ -1,34 +1,52 @@
 .contacto {
-    background:#000000;
-    color: #ffe593;
-    font-family: 'Handlee', cursive;
-    padding: 10px;
+    border: solid 1px #000;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    height: 60vh;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.contacto .project-tile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .contacto .project-tile h2 {
-    color: #ffe593;
     font-size: 50pt;
-    width: 100%;
-    font-family: 'Ruthie', cursive;
-    align-self: center;
-    text-align: center;
-    padding: 30px 0px;
+    border-bottom: solid 6px #58cdd1;
+    font-family: 'Squada One', cursive;
+}
+
+.contacto .project-tile .icono-idea{
+    width: 60px;
+    height: 60px;
 }
 
 .contacto .work {
-    color: #ffffff;
-    font-size: 20pt;
-    line-height: 50px;
-    border-bottom: double 6px #58cdd1;
-    width: 50%;
+    font-size: 18pt;
+    line-height: 30px;
+    width: 60%;
+    font-weight: 600;
     font-family: 'Handlee', cursive;
     align-self: center;
     text-align: center;
-    margin: 30px 0px;
+    margin-bottom: 30px;
+}
+
+.contacto .phrase {
+    font-size: 16pt;
+    line-height: 30px;
+    border: double 5px #58cdd1;
+    width: 60%;
+    font-family: 'Handlee', cursive;
+    align-self: center;
+    text-align: center;
+    /* margin-bottom: 30px; */
 }
 
 /*------animaciones iconos-------*/
@@ -42,7 +60,7 @@
 }
 
 .social-icons li {
-    margin: 50px;
+    margin: 0px 30px;
     position: relative;
     font-size: 35px;
 }
@@ -86,14 +104,6 @@
 
 /*------fin animaciones iconos-------*/
 
-.contacto .derechos {
-    color: #fff;
-    font-size: 10pt;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
 
 @media screen and (max-width: 720px){
     .contacto {
@@ -136,14 +146,4 @@
     left: 12px;
 }
 /*------fin animaciones iconos-------*/
-
-.contacto .derechos {
-    width: 100%;
-    color: #fff;
-    font-size: 10pt;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
 }
