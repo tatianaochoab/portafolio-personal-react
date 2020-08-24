@@ -13,7 +13,7 @@ const Inicio = () => {
                 </span>
                 <span className="section-nombre">
                     <h1>Soy, Tatiana Ochoa</h1>
-                    <p>Desarrolladora Front-End Junior</p>
+                    <p>Desarrolladora Front-End Junior - Academia Geek</p>
                 </span>
             </article>
             <div className="photo"><img src={tatiana} alt="foto"/></div>

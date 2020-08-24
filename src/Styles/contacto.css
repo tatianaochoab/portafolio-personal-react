@@ -1,5 +1,5 @@
 .contacto {
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
     width: 90%;
     margin: auto;
     height: 100vh;
@@ -111,7 +111,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        height: 60vh;
+        height: 100vh;
     }
 
     .contacto .project-tile h2 {
@@ -122,15 +122,14 @@
     }
 
     .contacto .work {
-        color: #ffffff;
         font-size: 15pt;
-        line-height: 50px;
-        border-bottom: double 6px #58cdd1;
-        width: 80%;
-        font-family: 'Handlee', cursive;
-        align-self: center;
-        text-align: center;
-        margin: 10px 0px;
+        margin-top: 30px;
+    }
+
+    .contacto .phrase {
+        font-size: 14pt;
+        width: 70%;
+        margin-bottom: 30px;
     }
 
     /*------animaciones iconos-------*/
@@ -146,4 +145,7 @@
     left: 12px;
 }
 /*------fin animaciones iconos-------*/
+
+
+
 }
